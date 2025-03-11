@@ -23,6 +23,7 @@ declare(strict_types=1);
 Я создала массив `$transactions`, содержащий информацию о банковских транзакциях. Пример структуры:
 
 ```php
+// Массив транзакций
 $transactions = [
     [
         "id" => 1,
@@ -37,6 +38,20 @@ $transactions = [
         "amount" => 75.50,
         "description" => "Dinner with friends",
         "merchant" => "Local Restaurant",
+    ],
+    [
+        "id" => 3,
+        "date" => "2021-06-10",
+        "amount" => 200.25,
+        "description" => "Monthly subscription",
+        "merchant" => "Online Service",
+    ],
+    [
+        "id" => 4,
+        "date" => "2022-11-22",
+        "amount" => 50.00,
+        "description" => "Taxi fare",
+        "merchant" => "City Taxi",
     ],
 ];
 ```
